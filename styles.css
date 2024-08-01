@@ -1,0 +1,69 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #575975;
+  font-family: 'Edu AU VIC WA NT Hand', cursive;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fa6355;
+}
+
+h2 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #c9f2d1;
+}
+
+h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff291;
+
+}
+
+p {
+  color: #3cc6d0;
+}
+
+.custom-button {
+  width: 10%;
+    background-color: #fa6355;
+    color: white;
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+}
+
+img {
+  width: 80%;
+  background-color: #ef1f1f;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #c9f2d1;
+  text-align: center;
+  font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+}
