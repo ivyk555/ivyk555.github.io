@@ -1,0 +1,183 @@
+
+#title {
+  background-color: #95B8D1;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+
+}
+
+.item {
+  color: #f57a7a;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #8f8f8f
+
+}
+
+h2 {
+  color: #D6EADF;
+  font-family: 'Roboto';
+  font-size: 1.5;
+  font-weight: bold;
+  color: #8f8f8f;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-weight: bold;
+
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #8f8f8f;
+  font-size: 18px;
+  line-height: 40px;
+
+}
+#experience{
+padding: 7% 5% 15%;
+background-color: #FFFFFF;
+
+}
+
+p{
+  color:#8f8f8f;
+
+}
+.pp {
+  color: #f57a7a;
+  font-weight: bold;
+}
+
+.easy{
+text-align: left;
+}
+
+.paragraph{
+color:#8f8f8f;
+text-align: left;
+
+}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+.navbar-brand {
+  font-family: 'Poppins';
+  font-size: 2.0rem;
+  font-weight: bold;
+  color:#8f8f8f;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+.navbar-item {
+  font-size: 1.5rem;
+}
+
+.navbar-link {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+
+/*Features*/
+#features {
+  font-family: 'Rubik', sans-serif;
+  padding: 7% 15%;
+  background-color: #D6EADF;
+  z-index: 2;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+.icon {
+  color: #f57a7a;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #809BCE
+}
+
+/*Testimonials*/
+#testimonials {
+  font-family: 'Rubik', sans-serif;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #D6EADF;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+  
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
